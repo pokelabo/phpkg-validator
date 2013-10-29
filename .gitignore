@@ -1,0 +1,15 @@
+# gtags
+GTAGS
+GRTAGS
+GPATH
+
+# emacs
+*~
+\#*
+
+/bin
+/vendor
+composer.phar
+php.ini
+
+

@@ -1,0 +1,24 @@
+{
+    "name": "pokelabo/validator",
+    "minimum-stability": "dev",
+    "require": {
+       "apix/autoloader": "1.0.*",
+       "pokelabo/core-utility": "dev-master@dev"
+    },
+    "require-dev": {
+        "behat/behat": "2.5.*@stable",
+        "phpunit/phpunit": "*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "repositories": [
+        { "type": "vcs",
+          "url": "https://github.com/pokelabo/phpkg-core-utility.git" }
+    ],
+    "autoload": {
+        "psr-0": {
+            "pokelabo": "src/"
+        }
+    }
+}
