@@ -1,9 +1,8 @@
 {
     "name": "pokelabo/validator",
-    "minimum-stability": "dev",
     "require": {
        "apix/autoloader": "1.0.*",
-       "pokelabo/core-utility": "dev-master@dev"
+       "pokelabo/core-utility": "1.0.*"
     },
     "require-dev": {
         "behat/behat": "2.5.*@stable",

@@ -12,15 +12,14 @@ Create a composer.json file in your project root:
 
     {
         "require": {
-            "pokelabo/validator": "*"
+            "pokelabo/validator": "1.0.*"
         },
         "repositories": [
             {
                 "type": "git",
                 "url": "https://github.com/pokelabo/phpkg-validator.git"
             }
-        ],
-        "minimum-stability": "dev"
+        ]
     }
 
 Usage
