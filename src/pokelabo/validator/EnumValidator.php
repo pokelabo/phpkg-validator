@@ -27,7 +27,7 @@ class EnumValidator extends AbstractValidator {
      * @return boolean 妥当であればtrue
      */
     public function validate($key, $param_map) {
-        if (empty($this->_value_list) || !is_array($this->_value_list)) {
+        if (!is_array($this->_value_list)) {
             throw new ValidatorException(
                 "value_listオプション設定が正しくありません",
                 ValidatorException::NO_ENTRY);
